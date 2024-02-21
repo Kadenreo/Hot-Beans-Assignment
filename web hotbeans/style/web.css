@@ -1,0 +1,577 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font for all headers*/
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font fall main text*/
+}
+
+#header1{
+    text-align: center;
+    margin-top: -140px;
+    font-size: 50px;
+    color: firebrick;
+    text-decoration: underline;
+    /*header colour changed*/
+}
+
+body{
+    background-color: cornsilk;
+    text-decoration: darkslategray;
+    /*background colour changed*/
+}
+
+.topnav{
+    position: fixed;
+    margin-left: 0px;
+    font-size: 75px;
+    color: orange;
+    background-color: powderblue;
+    /*navigation bar edited*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: powderblue;
+  /*border colour and display*/
+}
+
+
+li {
+  float: left;
+
+  /*Writing left to right*/
+}
+
+li a {
+  display: block;
+  color: darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+  /*text colour and display*/
+}
+
+
+li a:hover {
+  background-color: white;
+
+  /*hover over link colour*/
+}
+
+.active {
+  background-color: yellow;
+  /*link that is active colour*/
+}
+
+
+.fat-footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: powderblue;
+   color:darkslategray;
+   text-align: center;
+   
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: white;
+  color:darkslategray;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -125px;
+  font-size: 20px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+#twitterlogo{
+  width: 70px;
+  height: 70px;
+ 
+}
+
+#instalogo{
+  width: 70px;
+  height: 70px;
+  
+}
+
+#fblogo{
+  width: 70px;
+  height: 70px;
+
+}
+
+#hbtwitter{
+  width: 70px;
+  height: 70px;
+}
+
+#hottwit{
+  text-align: left;
+  color: darkslategray;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#hotinsta{
+  text-align: left;
+  color: darkslategray;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#hotfb{
+  text-align: left;
+  color: darkslategray;
+
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+#home{
+    text-decoration: underline;
+    color: firebrick;
+    font-size: 40px;
+    margin-top: 8%;
+}
+
+#HomeParagraph{
+    font-size: 30px;
+    margin-top: 20px;
+    color: darkslategray;
+}
+
+#logo{
+  height: 200px;
+  width: 400px;
+  margin-left: 73.8%;
+  margin-top: auto;
+}
+
+#profile{
+  text-decoration: underline;
+  color: firebrick;
+  font-size: 40px;
+}
+
+#ProfileParagraph{
+  font-size: 30px;
+  color: darkslategray;
+}
+
+#job{
+  font-size: 40px;
+  color: firebrick
+  text-decoration; underline:
+}
+
+#JobParagraph{
+  font-size: 30px;
+  color:  darkslategray;
+}
+
+
+#online{
+  text-decoration: underline;
+  color: firebrick;
+  font-size: 40px;
+}
+
+#OnlineParagraph{
+  font-size: 30px;
+  color: darkslategray;
+}
+
+
+#courses{
+  text-decoration: underline;
+  color: firebrick;
+  font-size: 40px;
+}
+
+#CoursesParagraph{
+  font-size: 30px;
+  color: darkslategray;
+}
+
+#contacts{
+  text-decoration: underline;
+  color: firebrick;
+  font-size: 40px;
+}
+
+#ContactsParagraph{
+  font-size: 30px;
+  color: darkslategray;
+}
+
+#employintro{
+  color: darkslategray;
+  font-size: 30px;
+  margin-top: 5%;
+  text-align: left;
+  margin-left: 0%;
+}
+
+#employintro2{
+  color: darkslategray;
+  font-size: 30px;
+  margin-top: 0%;
+  text-align: left;
+  margin-left: 0%;
+}
+
+#employintro3{
+  color: darkslategray;
+  font-size: 30px;
+  margin-top: 0%;
+  text-align: left;
+  margin-left: 0%;
+}
+
+
+
+#protitle{
+  color: firebrick;
+  text-decoration: underline;
+  font-size: 50px;
+  text-align: center;
+}
+
+#prowelc{
+  color: darkslategray;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+#trainee{
+  color: firebrick;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+#loraine{
+  color: darkslategray;
+  font-size: 25px;
+}
+
+#james{
+  color: darkslategray;
+  font-size: 25px;
+}
+
+#sarah{
+  color: darkslategray;
+  font-size: 25px;
+}
+
+#jobtitle{
+  color: firebrick;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  margin-top: 50px;
+
+}
+
+#cur{
+  color: firebrick;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#curlor{
+  color: darkslategray;
+  font-size: 20px;
+  text-align: left;
+}
+
+#curja{
+  color: darkslategray;
+  font-size: 20px; 
+  text-align: left;
+  
+}
+
+#cursar{
+  color: darkslategray;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+
+#req{
+  color: firebrick;
+  text-decoration: underline;
+  font-size: 40px;
+  margin-top: 50px;
+  
+}
+
+#reqex{
+  color: darkslategray;
+  font-size: 30px;
+  
+}
+
+#reqex1{
+  color: darkslategray;
+  font-size: 20px;
+  
+}
+
+#reqex2{
+  color: darkslategray;
+  font-size: 20px;
+  
+}
+
+#reqex3{
+  color: darkslategray;
+  font-size: 20px;
+  
+}
+
+#reqex4{
+  color: darkslategray;
+  font-size: 20px;
+  
+}
+
+#OnlineApp{
+  color: firebrick;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+#interest{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#learn{
+  color: firebrick;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+#HTML{
+  color: firebrick;
+  font-size: 60px;
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+#htmlex{
+  color: darkslategray;
+  font-size: 40px;
+}
+
+#htmlresource{
+  color: darkslategray;
+  font-size: 30px;
+}
+
+#w3s{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#codecademy{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#ytex{
+  color: darkslategray;
+  font-size: 30px;
+}
+
+#htmlyt{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#CSS{
+  color: firebrick;
+  font-size: 60px;
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 100px;
+}
+
+#cssex{
+  color: darkslategray;
+  font-size: 40px;
+}
+
+#cssresource{
+  color: darkslategray;
+  font-size: 30px;
+}
+
+#cssw3s{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#csscodecademy{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#cssytex{
+  color: darkslategray;
+  font-size: 30px;
+}
+
+#cssyt{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#js{
+  color: firebrick;
+  font-size: 60px;
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 100px;
+}
+
+#jssex{
+  color: darkslategray;
+  font-size: 40px;
+}
+
+#jsresource{
+  color: darkslategray;
+  font-size: 30px;
+}
+
+#jsw3s{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#jscodecademy{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#jsytex{
+  color: darkslategray;
+  font-size: 30px;
+}
+
+#jsyt{
+  color: darkslategray;
+  font-size: 20px;
+}
+
+#cont{
+  margin-top: 50px;
+  color: firebrick;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid cornsilk;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: cornsilk;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:cornsilk;
+  padding: 20px;
+}
